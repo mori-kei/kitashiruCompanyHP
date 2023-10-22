@@ -1,0 +1,309 @@
+@charset "UTF-8";
+@media screen and (max-width: 600px) {
+  /*　画面サイズが480pxからはここを読み込む　*/
+  /* common */
+  .pc {
+    display: none;
+  }
+  body {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 18px;
+    color: #003333;
+  }
+  h2 {
+    font-size: 16px;
+    color: #003333;
+  }
+  h3 {
+    font-size: 12px;
+    line-height: 24px;
+    color: #003333;
+  }
+  header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #333333;
+    padding-left: 20px;
+    margin-bottom: 90px;
+    width: 100%;
+  }
+  header div img {
+    height: 30x;
+    width: 30px;
+    margin-right: 20px;
+  }
+  .main-visual {
+    position: relative;
+    margin-bottom: 80px;
+  }
+  .main-visual img {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .main-visual h1 {
+    color: #ffffff; /* 文字色 */
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 32px;
+  }
+  .content1 {
+    width: 85%;
+    border: #333333 1px solid;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 20px 20px;
+  }
+  .content2 {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .content2 h2 {
+    text-align: center;
+  }
+  .content2 .service {
+    margin-top: 35px;
+    border: #333333 1px solid;
+    border-radius: 30px;
+    padding: 10px 10px;
+  }
+  .content2 .service .left p.number {
+    font-size: 24px;
+  }
+  .content2 .service .center .txt {
+    margin-top: 20px;
+  }
+  .content2 .service h2 {
+    text-align: left;
+  }
+  .content3 {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .content3 h2 {
+    text-align: center;
+  }
+  .content3 .effects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .content3 .effects .effect {
+    margin-top: 50px;
+  }
+  .content3 .effects .effect .title {
+    padding: 20px;
+    border: 1px solid #333333;
+    background-color: #fff100;
+    border-radius: 20px 20px 0 0;
+  }
+  .content3 .effects .effect .txt {
+    padding: 20px;
+    border: 1px solid #333333;
+    border-radius: 0 0 20px 20px;
+  }
+  .content4 {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .content4 h2 {
+    text-align: center;
+  }
+  .content4 .flow {
+    margin-top: 35px;
+    border: #333333 1px solid;
+    border-radius: 30px;
+    padding: 10px 15px;
+  }
+  .content4 .flow .left img {
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .content4 .flow .right .link {
+    background-color: #fff100;
+    text-align: center;
+    padding: 10px;
+  }
+  .content4 .flow h2 {
+    text-align: left;
+  }
+  footer {
+    padding-top: 50px;
+  }
+  footer div {
+    padding: 20px;
+    text-align: center;
+    background-color: #212836;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 600px) {
+  .sp {
+    display: none;
+  }
+  /* common */
+  h1 {
+    font-size: 36px;
+    color: #003333;
+  }
+  h2 {
+    font-size: 24px;
+    color: #003333;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 35px;
+    color: #003333;
+  }
+  header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #333333;
+    padding-left: 20px;
+    margin-bottom: 90px;
+  }
+  header div img {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+  }
+  .main-visual {
+    position: relative;
+    margin-bottom: 80px;
+  }
+  .main-visual img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main-visual h1 {
+    color: #ffffff; /* 文字色 */
+    font-size: 24px; /* 文字の大きさ */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .content1 {
+    width: 1018px;
+    border: #333333 1px solid;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 70px 85px;
+  }
+  .content2 {
+    width: 1018px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .content2 h2 {
+    text-align: center;
+  }
+  .content2 .service {
+    margin-top: 35px;
+    border: #333333 1px solid;
+    border-radius: 30px;
+    padding: 70px 85px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .content2 .service .left p.number {
+    font-size: 24px;
+  }
+  .content2 .service .center {
+    width: 50%;
+  }
+  .content2 .service .center .txt {
+    margin-top: 20px;
+  }
+  .content2 .service h2 {
+    text-align: left;
+  }
+  .content3 {
+    width: 1018px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .content3 h2 {
+    text-align: center;
+  }
+  .content3 .effects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .content3 .effects .effect {
+    width: 400px;
+    margin-top: 50px;
+  }
+  .content3 .effects .effect .title {
+    padding: 20px;
+    border: 1px solid #333333;
+    background-color: #fff100;
+    border-radius: 20px 20px 0 0;
+  }
+  .content3 .effects .effect .txt {
+    padding: 20px;
+    border: 1px solid #333333;
+    border-radius: 0 0 20px 20px;
+  }
+  .content4 {
+    width: 1018px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .content4 h2 {
+    text-align: center;
+  }
+  .content4 .flow {
+    margin-top: 35px;
+    border: #333333 1px solid;
+    border-radius: 30px;
+    padding: 70px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content4 .flow .left {
+    padding-left: 50px;
+  }
+  .content4 .flow .right {
+    width: 50%;
+  }
+  .content4 .flow .right .txt {
+    margin-top: 20px;
+  }
+  .content4 .flow .right .txt .link {
+    margin-top: 10px;
+    background-color: #fff100;
+    text-align: center;
+    padding: 10px;
+  }
+  .content4 .flow h2 {
+    text-align: left;
+  }
+  footer {
+    padding-top: 50px;
+  }
+  footer div {
+    padding: 20px;
+    text-align: center;
+    background-color: #212836;
+    color: #ffffff;
+  }
+}/*# sourceMappingURL=style.css.map */
