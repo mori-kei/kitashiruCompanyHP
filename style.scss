@@ -162,7 +162,26 @@
       }
     }
   }
+  .content5 {
+    .div {
+      width: 80%;
 
+      background-color: #ffccca;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 50px;
+      a {
+        display: block;
+        width: 100%;
+        color: #000000;
+        text-align: center;
+        background-color: #cccccc;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 5px 0;
+      }
+    }
+  }
   footer {
     padding-top: 50px;
     div {
